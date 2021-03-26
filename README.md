@@ -1,26 +1,19 @@
 # Introduction
 
-Netlify StatusKit is a template to deploy your own Status pages on Netlify.
+This is the main status page for ABS web services. It is manually updated so information may be delayed.
 
-[![Netlify StatusKit Demo](http://statuskit.netlify.com/statuskit.png)](https://statuskit.netlify.com/)
+## Basics
+Create a new incident using npm:
 
+```
+npm run new
+```
+## Licensing
 Netlify StatusKit is released under the [MIT License](LICENSE).
-Please make sure you understand its [implications and guarantees](https://writing.kemitchell.com/2016/09/21/MIT-License-Line-by-Line.html).
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/netlify-statuskit)
-
-## Project Status
-
-This project is no longer being maintained by netlify staff. This is a community led project and if you are looking to support this project, please get in touch via an issue.
-
-### Netlify's Statement
-
-> [Netlify] doesn't currently have the staff to process such contributions.
 
 ## Initial configuration
 
-Click in the Deploy to Netlify button above to create your own site directly and push this repository to your own account.
-Before creating the site, Netlify will ask you to fill required environment variables listed here:
+On Netlify, the environment variables listed here are filled in:
 
 - `STATUSKIT_PAGE_TITLE` - Title to show in the browser for your status site.
 - `STATUSKIT_COMPANY_LOGO` - URL to your company's logo.
@@ -52,7 +45,7 @@ Adding incidents to your status page is as simple as adding a new document to th
 Create a new incident using npm:
 
 ```
-npm run new-incident
+npm run new
 ```
 
 You'll be asked a series of questions about the incident, then Hugo will generate a new file pre-filled with your responses.
