@@ -3,7 +3,7 @@
 This is the main status page for ABS web services. It is manually updated so information may be delayed.
 
 ## Basics
-Create a new incident using npm:
+Once the repo is cloned on your computer, create a new incident locally using npm:
 
 ```
 npm run new
