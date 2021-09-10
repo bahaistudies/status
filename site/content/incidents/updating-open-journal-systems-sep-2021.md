@@ -1,5 +1,5 @@
 +++
-title = "Netlify load balancer down"
+title = "Journal Website Under Maintenance"
 date = 2021-09-10T16:45:10.000-07:00
 severity = "under-maintenance"
 affectedsystems = ["JBS Website (journal.bahaistudies.ca)"]
