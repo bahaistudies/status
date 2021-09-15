@@ -1,6 +1,6 @@
 +++
 title = "Name Server Transfer"
-date = 2021-09-50T20:00:00.000-07:00
+date = 2021-09-14T20:00:00.000-07:00
 severity = "under-maintenance"
 affectedsystems = ["ABS Website (bahaistudies.ca)", "JBS Website (journal.bahaistudies.ca)", "Conference App", "Email"]
 resolved = false
